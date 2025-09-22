@@ -14,9 +14,7 @@ This project is designed as a learning exercise to practice:
 - Add stories by uploading an image (+ button)
 - Stories are stored in **localStorage** as Base64
 - Stories **expire automatically after 24 hours**
-- Click on a story to view it in fullscreen
-- Optional: Swipe through multiple stories
-- Styled to look like the stories bar on Instagram/WhatsApp
+
 
 ---
 
