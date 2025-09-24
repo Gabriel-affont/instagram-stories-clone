@@ -1,15 +1,19 @@
 <!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram stories</title>
-    <link rel="stylesheet" href="styles.css">
-   
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div>
-        <button>+</button>
-    </div class = "stories-bar">
-     <script src="script.js" ></script>
+    <div class="stories-bar">
+        <div id="stories"></div>
+        <button id="add-story">+</button>
+    </div>
+    <input type ="file" id="file-input" accept="image/*" style="display:none">
+
+    <script src="script.js"></script>
 </body>
 </html>

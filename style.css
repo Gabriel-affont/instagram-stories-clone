@@ -1,19 +1,46 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
+    font-family: Arial, sans-serif;
+    margin: 20px;
 }
 
 .stories-bar {
-  display: flex;
-  gap: 10px;
-  align-items: center;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.stories-bar #stories {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.stories-bar .story {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    flex-shrink: 0;
+    background-color: #f0f0f0; 
+}
+
+.stories-bar .story img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .stories-bar button {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    font-size: 24px;
+    cursor: pointer;
+    flex-shrink: 0;
+    background-color: white;
 }
