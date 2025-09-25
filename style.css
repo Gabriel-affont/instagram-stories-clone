@@ -44,3 +44,6 @@ body {
     flex-shrink: 0;
     background-color: white;
 }
+.hidden {
+    display:none;
+}

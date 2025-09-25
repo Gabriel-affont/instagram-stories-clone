@@ -12,6 +12,12 @@
         <div id="stories"></div>
         <button id="add-story">+</button>
     </div>
+    <div id="story-viewer" class="hidden fixed top-0 left-0 w-full h-full bg-black bg-opacity-90 flex item-center justify-center">
+        <button id="prev-btn" class="absolute left-4 text-white text-3xl ">⟨</button>
+        <img id="viewer-img" src="" alt="story"class="max-h-full max-w-full rounded-lg"/>
+        <button id="next-btn" class="absolute right-4 text-white text-3xl">⟩</button>
+        <button id="close-btn" class="absolute top-4 right-4 text-white-white text-2xl">X</button>
+    </div>
     <input type ="file" id="file-input" accept="image/*" style="display:none">
 
     <script src="script.js"></script>
